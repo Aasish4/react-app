@@ -1,0 +1,29 @@
+.camera-container{
+    padding: 20px;
+    background-color: rgb(242, 248, 254);
+    height: calc(100vh - 100px);
+}
+.camera-head{
+    display: flex;
+    justify-content: space-between;
+}
+.camera-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+}
+.camera-add-search{
+    display: flex;
+}
+.camera-add-search button{
+    margin-right: 10px;
+}
+.camera-description{
+    color: rgb(115, 115, 115);
+}
+.camera-body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

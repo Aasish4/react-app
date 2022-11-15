@@ -1,0 +1,37 @@
+.insights-container{
+    padding: 20px;
+    background-color: rgb(242, 248, 254);
+    height: calc(100vh - 90px);
+}
+.insights-head{
+    display: flex;
+    justify-content: space-between;
+}
+.insights-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+}
+.insights-button-more{
+    display: flex;
+}
+.insights-button-more button{
+    margin-right: 10px;
+}
+.insights-description{
+    color: rgb(115, 115, 115);
+}
+.insights-video-container{
+    display: flex;
+    justify-content: space-between;
+}
+.insights-video-info{
+    padding-top: 20px;
+    width: 40%;
+    height: 50vh;
+}
+.insights-video{
+    padding-top: 20px;
+    width: 58%;
+    height: 50vh;
+}
